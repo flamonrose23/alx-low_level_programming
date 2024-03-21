@@ -1,16 +1,14 @@
 #!/usr/bin/python3
+"""Creating function    about   island  perimeter"""
 
-    """Creating function about island perimeter"""
 
-
-    def island_perimeter(grid):
+def island_perimeter(grid):
     """
     Returning island's perimeter described in grid
     Grid represented water by 0 and land by 1
     Grid is rectangular, width and height don’t exceed 100
     Grid is completely surrounded by water, and there is one island (or nothing)
     """
-
     width = len(grid[0]) ; height = len(grid)
     size = 0 ; edges = 0
 
