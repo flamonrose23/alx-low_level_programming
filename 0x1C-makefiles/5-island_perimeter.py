@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-"""Creating function about island perimeter"""
+    """Creating function about island perimeter"""
 
-def island_perimeter(grid):
+
+    def island_perimeter(grid):
     """
     Returning island's perimeter described in grid
     Grid represented water by 0 and land by 1
