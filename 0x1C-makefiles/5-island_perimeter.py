@@ -9,8 +9,10 @@ def island_perimeter(grid):
     Grid is rectangular, width and height don’t exceed 100
     Grid is completely surrounded by water, and there is one island (or nothing)
     """
-    width = len(grid[0]) ; height = len(grid)
-    size = 0 ; edges = 0
+    width = len(grid[0])
+    height = len(grid)
+    size = 0
+    edges = 0
 
     for a in range(height):
         for b in range(width):
